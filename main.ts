@@ -9,7 +9,6 @@
 //   }
 // }console.log(count ? sum / count : 0);
 
-
 // 2 masala
 // let users: string[] = ["Umarali", "", "Maxsuma", "Umar", ""];
 // let result: string = users
@@ -17,7 +16,6 @@
 //   .filter((n) => n !== "")
 //   .join(",");
 // console.log(result);
-
 
 // 3 masala
 // type Person = { name: string; age: number };
@@ -56,3 +54,29 @@
 // console.log(result);
 
 // 7 chi masala
+// let obj: Record<string, number> = { a: 10, b: 30, c: 20 };
+// let Key = "";
+// for (let k in obj) if (!Key || obj[k] > obj[Key]) Key = k;
+// console.log(Key);
+
+// 8 masala
+// const students = [
+//   { name: "Umarali", scores: [80, 90, 70] },
+//   { name: "Maxsuma", scores: [60, 75, 85] },
+//   { name: "Munisa", scores: [68, 76, 80] },
+// ];
+// let result = students.map((s) => ({
+//   name: s.name,
+//   avg: s.scores.reduce((a, b) => a + b, 0) / s.scores.length,
+// }));
+// console.log(result);
+
+// 10 masala
+// let users = [
+//   { id: 1, name: "ifora" },
+//   { id: 2, name: "Mushtariy" },
+//   { id: 3, name: "Yasmena" },
+// ];
+// let id = [1, 3];
+// let result = users.filter((u) => id.includes(u.id));
+// console.log(result);
